@@ -9,7 +9,7 @@ pipeline {
             
             steps {
                 dir ('source') {
-                    sh '''mvn -Dmaven.test.failure.ignore=true clean install
+                    sh '''/Users/manasa.pala/jenkins_home/apache-maven-3.6.1/bin/mvn -Dmaven.test.failure.ignore=true clean install
                           cp -R target/*.war ansible/hello-world.war'''
                 }
                 dir ('source/terraform/dev') {
