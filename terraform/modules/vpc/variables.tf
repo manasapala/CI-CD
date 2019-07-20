@@ -43,9 +43,9 @@ variable "default_vpc_cidrs" {
 }
 
 variable "default_vpc_id" {
-  default = "vpc-037950fc91f7f756a"
+  default = "vpc-35f8524d"
 }
 
 variable "defaultRouteTables" {
-  default = "rtb-060d4f1c922549f8c"
+  default = "rtb-1b6efa60"
 }
