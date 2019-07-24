@@ -9,7 +9,7 @@ variable "environment" {
 
 #key pair name
 variable "key_name" {
-  default = "jenkins-west-2"
+  default = "jenkins_west_2"
 }
 
 variable "ssh_user" {
